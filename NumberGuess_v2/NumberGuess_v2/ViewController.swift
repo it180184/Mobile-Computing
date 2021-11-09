@@ -14,7 +14,6 @@ class ViewController: UIViewController {
             self.view.backgroundColor = .white
             var messageText: String!
             
-            // label.text = model.checkGuess(guess)
             model.guessCount += 1
             model.guesses.append(Int(guess)!)
             print(model.guesses)

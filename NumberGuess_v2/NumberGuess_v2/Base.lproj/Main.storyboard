@@ -101,14 +101,29 @@
         <!--Guess History-->
         <scene sceneID="cOQ-wf-M5C">
             <objects>
-                <viewController id="pk2-Ji-y8w" sceneMemberID="viewController">
+                <viewController id="pk2-Ji-y8w" customClass="HistoryViewController" customModule="NumberGuess_v2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QSe-8N-hOY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWA-M8-j6k">
+                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bTs-Lt-MwE"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="ZWA-M8-j6k" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="io4-hk-AhN"/>
+                            <constraint firstItem="ZWA-M8-j6k" firstAttribute="centerY" secondItem="QSe-8N-hOY" secondAttribute="centerY" id="slm-7j-XGc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Guess History" id="QwG-d5-KrS"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="ZWA-M8-j6k" id="ZiQ-It-9wW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwO-wi-YEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

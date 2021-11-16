@@ -54,10 +54,15 @@ class ViewController: UIViewController {
             if model.evaluate(string: textField.text ?? "") != 0 {
                 return false;
             } else {
-                model.reset()
+                // model.reset()
             }
         }
         return true;
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let resVC = segue.destination as? HistoryViewController;
+        resVC?.model = model;
     }
 }
 

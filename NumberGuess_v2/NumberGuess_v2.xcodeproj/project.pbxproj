@@ -15,6 +15,7 @@
 		A830D548270C586F000A932B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A830D546270C586F000A932B /* LaunchScreen.storyboard */; };
 		A830D550270C5F17000A932B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A830D54F270C5F17000A932B /* Model.swift */; };
 		A8E04E2E27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E04E2D27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg */; };
+		A8E203CD2743C6250007702F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E203CC2743C6250007702F /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A830D549270C586F000A932B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A830D54F270C5F17000A932B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A8E04E2D27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ff1071659a06ebce335f0594e397850c.jpg; sourceTree = "<group>"; };
+		A8E203CC2743C6250007702F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A830D53D270C586B000A932B /* SceneDelegate.swift */,
 				A830D53F270C586B000A932B /* ViewController.swift */,
 				A830D541270C586B000A932B /* Main.storyboard */,
+				A8E203CC2743C6250007702F /* HistoryViewController.swift */,
 				A830D544270C586F000A932B /* Assets.xcassets */,
 				A830D546270C586F000A932B /* LaunchScreen.storyboard */,
 				A830D549270C586F000A932B /* Info.plist */,
@@ -147,6 +150,7 @@
 				A830D540270C586B000A932B /* ViewController.swift in Sources */,
 				A830D53C270C586B000A932B /* AppDelegate.swift in Sources */,
 				A830D53E270C586B000A932B /* SceneDelegate.swift in Sources */,
+				A8E203CD2743C6250007702F /* HistoryViewController.swift in Sources */,
 				A830D550270C5F17000A932B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

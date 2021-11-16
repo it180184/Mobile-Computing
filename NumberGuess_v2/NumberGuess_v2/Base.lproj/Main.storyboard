@@ -112,16 +112,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kRc-Er-dE0">
+                                <rect key="frame" x="87.5" y="394" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="2Yl-8I-1Fj"/>
+                                    <constraint firstAttribute="width" secondItem="kRc-Er-dE0" secondAttribute="height" multiplier="1:1" id="H5w-1E-zuk"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bTs-Lt-MwE"/>
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
+                            <constraint firstItem="ZWA-M8-j6k" firstAttribute="bottom" secondItem="kRc-Er-dE0" secondAttribute="top" constant="-50" id="G9B-tc-9zx"/>
+                            <constraint firstItem="kRc-Er-dE0" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="b65-bD-eVk"/>
                             <constraint firstItem="ZWA-M8-j6k" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="io4-hk-AhN"/>
                             <constraint firstItem="ZWA-M8-j6k" firstAttribute="centerY" secondItem="QSe-8N-hOY" secondAttribute="centerY" id="slm-7j-XGc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Guess History" id="QwG-d5-KrS"/>
                     <connections>
+                        <outlet property="imageView" destination="kRc-Er-dE0" id="CeF-Cl-Gfk"/>
                         <outlet property="messageLabel" destination="ZWA-M8-j6k" id="ZiQ-It-9wW"/>
                     </connections>
                 </viewController>

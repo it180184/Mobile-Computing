@@ -16,6 +16,8 @@
 		A830D550270C5F17000A932B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A830D54F270C5F17000A932B /* Model.swift */; };
 		A8E04E2E27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8E04E2D27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg */; };
 		A8E203CD2743C6250007702F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E203CC2743C6250007702F /* HistoryViewController.swift */; };
+		A8E203D02743CEF80007702F /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E203CE2743CEF70007702F /* sad.png */; };
+		A8E203D12743CEF80007702F /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E203CF2743CEF80007702F /* happy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A830D54F270C5F17000A932B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A8E04E2D27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ff1071659a06ebce335f0594e397850c.jpg; sourceTree = "<group>"; };
 		A8E203CC2743C6250007702F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A8E203CE2743CEF70007702F /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		A8E203CF2743CEF80007702F /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				A8E04E2D27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg */,
+				A8E203CF2743CEF80007702F /* happy.png */,
+				A8E203CE2743CEF70007702F /* sad.png */,
 				A830D53B270C586B000A932B /* AppDelegate.swift */,
 				A830D53D270C586B000A932B /* SceneDelegate.swift */,
 				A830D53F270C586B000A932B /* ViewController.swift */,
@@ -135,6 +141,8 @@
 			files = (
 				A830D548270C586F000A932B /* LaunchScreen.storyboard in Resources */,
 				A8E04E2E27158B96000C1306 /* ff1071659a06ebce335f0594e397850c.jpg in Resources */,
+				A8E203D12743CEF80007702F /* happy.png in Resources */,
+				A8E203D02743CEF80007702F /* sad.png in Resources */,
 				A830D545270C586F000A932B /* Assets.xcassets in Resources */,
 				A830D543270C586B000A932B /* Main.storyboard in Resources */,
 			);

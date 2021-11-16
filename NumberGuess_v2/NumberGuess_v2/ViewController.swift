@@ -29,11 +29,11 @@ class ViewController: UIViewController {
             
             label.text = messageText
             
-            if (model.guessCount == 0) {
-                imageView.isHidden = false
-            } else if (model.guessCount == 1) {
-                imageView.isHidden = true
-            }
+//            if (model.guessCount == 0) {
+//                imageView.isHidden = false
+//            } else if (model.guessCount == 1) {
+//                imageView.isHidden = true
+//            }
         } else {
             self.view.backgroundColor = .red
         }

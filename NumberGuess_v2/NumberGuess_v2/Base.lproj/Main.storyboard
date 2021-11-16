@@ -51,6 +51,7 @@
                                 <state key="normal" title="Guess"/>
                                 <connections>
                                     <action selector="onTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qwd-q7-aJ0"/>
+                                    <segue destination="pk2-Ji-y8w" kind="show" identifier="guessShowSegue" id="A2g-O6-PwC"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ff1071659a06ebce335f0594e397850c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1ww-TK-Cr1">
@@ -114,6 +115,9 @@
             <point key="canvasLocation" x="132" y="847"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="A2g-O6-PwC"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="ff1071659a06ebce335f0594e397850c.jpg" width="512" height="288"/>
         <systemColor name="systemBackgroundColor">

@@ -16,12 +16,11 @@ class ViewController: UIViewController {
             
             model.guessCount += 1
             model.guesses.append(Int(guess)!)
-            print(model.guesses)
             
             switch (model.evaluate(string: guess)) {
             case 0:
                 messageText = "You guessed the number in \(model.guessCount) guesses"
-                model.reset()
+                //model.reset() - now in shouldPerformSegue
             case 1:
                 messageText = "\(guess) is bigger than the number"
             default:
@@ -50,6 +49,15 @@ class ViewController: UIViewController {
         model.reset()
     }
 
-
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "guessShowSegue" {
+            if model.evaluate(string: textField.text ?? "") != 0 {
+                return false;
+            } else {
+                model.reset()
+            }
+        }
+        return true;
+    }
 }
 

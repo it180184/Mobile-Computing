@@ -18,6 +18,7 @@
 		A8E203CD2743C6250007702F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E203CC2743C6250007702F /* HistoryViewController.swift */; };
 		A8E203D02743CEF80007702F /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E203CE2743CEF70007702F /* sad.png */; };
 		A8E203D12743CEF80007702F /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E203CF2743CEF80007702F /* happy.png */; };
+		BB07DD632771B536003EE05B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07DD622771B536003EE05B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A8E203CC2743C6250007702F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		A8E203CE2743CEF70007702F /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 		A8E203CF2743CEF80007702F /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		BB07DD622771B536003EE05B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				A830D546270C586F000A932B /* LaunchScreen.storyboard */,
 				A830D549270C586F000A932B /* Info.plist */,
 				A830D54F270C5F17000A932B /* Model.swift */,
+				BB07DD622771B536003EE05B /* TableViewController.swift */,
 			);
 			path = NumberGuess_v2;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A830D540270C586B000A932B /* ViewController.swift in Sources */,
+				BB07DD632771B536003EE05B /* TableViewController.swift in Sources */,
 				A830D53C270C586B000A932B /* AppDelegate.swift in Sources */,
 				A830D53E270C586B000A932B /* SceneDelegate.swift in Sources */,
 				A8E203CD2743C6250007702F /* HistoryViewController.swift in Sources */,

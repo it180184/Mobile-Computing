@@ -16,5 +16,10 @@ class HistoryViewController: UIViewController {
             imageView.image = UIImage.init(named: "sad.png")
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let tvc = segue.destination as? TableViewController;
+        tvc?.guesses = model?.guesses ?? [Int]();
+    }
 
 }

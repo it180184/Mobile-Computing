@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L4y-6z-AJM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L4y-6z-AJM">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -98,6 +99,34 @@
             </objects>
             <point key="canvasLocation" x="132" y="115.59220389805098"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="d4y-0K-kzx">
+            <objects>
+                <tableViewController id="IaX-qu-uVy" customClass="TableViewController" customModule="NumberGuess_v2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="1f0-eK-K2A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="guess" id="Xa0-hH-1zQ">
+                                <rect key="frame" x="0.0" y="44.5" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xa0-hH-1zQ" id="3kR-7a-lxp">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IaX-qu-uVy" id="qh9-b1-FvE"/>
+                            <outlet property="delegate" destination="IaX-qu-uVy" id="XTu-GY-XCt"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HnX-I4-CdI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-655" y="847"/>
+        </scene>
         <!--Guess History-->
         <scene sceneID="cOQ-wf-M5C">
             <objects>
@@ -119,10 +148,20 @@
                                     <constraint firstAttribute="width" secondItem="kRc-Er-dE0" secondAttribute="height" multiplier="1:1" id="H5w-1E-zuk"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKI-de-yhQ">
+                                <rect key="frame" x="147.5" y="252" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Guesses"/>
+                                <connections>
+                                    <segue destination="IaX-qu-uVy" kind="showDetail" id="L6s-y6-chG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bTs-Lt-MwE"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ZWA-M8-j6k" firstAttribute="top" secondItem="sKI-de-yhQ" secondAttribute="bottom" constant="40" id="B0H-lR-dvn"/>
+                            <constraint firstItem="sKI-de-yhQ" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="Biv-P5-Q1u"/>
                             <constraint firstItem="ZWA-M8-j6k" firstAttribute="bottom" secondItem="kRc-Er-dE0" secondAttribute="top" constant="-50" id="G9B-tc-9zx"/>
                             <constraint firstItem="kRc-Er-dE0" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="b65-bD-eVk"/>
                             <constraint firstItem="ZWA-M8-j6k" firstAttribute="centerX" secondItem="QSe-8N-hOY" secondAttribute="centerX" id="io4-hk-AhN"/>
@@ -147,9 +186,6 @@
         <image name="ff1071659a06ebce335f0594e397850c.jpg" width="512" height="288"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

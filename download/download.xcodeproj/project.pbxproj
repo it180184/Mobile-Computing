@@ -13,6 +13,8 @@
 		A81D5E76278D991600B3BDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81D5E74278D991600B3BDE6 /* Main.storyboard */; };
 		A81D5E78278D991900B3BDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81D5E77278D991900B3BDE6 /* Assets.xcassets */; };
 		A81D5E7B278D991900B3BDE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81D5E79278D991900B3BDE6 /* LaunchScreen.storyboard */; };
+		A8FA5CFA2796D4BA00F9C7D8 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA5CF92796D4BA00F9C7D8 /* TodoModel.swift */; };
+		A8FA5CFC2796D7D100F9C7D8 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA5CFB2796D7D100F9C7D8 /* TodoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A81D5E77278D991900B3BDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A81D5E7A278D991900B3BDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A81D5E7C278D991900B3BDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FA5CF92796D4BA00F9C7D8 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		A8FA5CFB2796D7D100F9C7D8 /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A81D5E77278D991900B3BDE6 /* Assets.xcassets */,
 				A81D5E79278D991900B3BDE6 /* LaunchScreen.storyboard */,
 				A81D5E7C278D991900B3BDE6 /* Info.plist */,
+				A8FA5CF92796D4BA00F9C7D8 /* TodoModel.swift */,
+				A8FA5CFB2796D7D100F9C7D8 /* TodoTableViewController.swift */,
 			);
 			path = download;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81D5E73278D991600B3BDE6 /* ViewController.swift in Sources */,
+				A8FA5CFC2796D7D100F9C7D8 /* TodoTableViewController.swift in Sources */,
+				A8FA5CFA2796D4BA00F9C7D8 /* TodoModel.swift in Sources */,
 				A81D5E6F278D991600B3BDE6 /* AppDelegate.swift in Sources */,
 				A81D5E71278D991600B3BDE6 /* SceneDelegate.swift in Sources */,
 			);

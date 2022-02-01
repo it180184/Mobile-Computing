@@ -17,11 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bingus.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rdm-l6-7yl" userLabel="bingus">
-                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rdm-l6-7yl" secondAttribute="height" multiplier="1:1" id="Xhe-AY-hpW"/>
-                                    <constraint firstAttribute="width" constant="200" id="rHA-rB-wFO"/>
+                                    <constraint firstAttribute="width" constant="150" id="rHA-rB-wFO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="herbert.png" translatesAutoresizingMaskIntoConstraints="NO" id="gWk-BH-eln" userLabel="herbert">
+                                <rect key="frame" x="10" y="10" width="100" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gWk-BH-eln" secondAttribute="height" multiplier="221:128" id="6Nq-K0-0Wf"/>
+                                    <constraint firstAttribute="width" constant="100" id="6fu-tk-khH"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -30,7 +37,9 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="rdm-l6-7yl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Ii-Ln-cco"/>
+                            <constraint firstItem="gWk-BH-eln" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="3Un-XH-AkF"/>
                             <constraint firstItem="rdm-l6-7yl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qWw-9f-Om4"/>
+                            <constraint firstItem="gWk-BH-eln" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="tol-bZ-YZV"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="H3d-jf-gni" appends="YES" id="3uR-uo-VLe"/>
@@ -38,6 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="bingus" destination="rdm-l6-7yl" id="bAi-Cf-4zb"/>
+                        <outlet property="herbert" destination="gWk-BH-eln" id="4in-im-809"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -47,11 +57,12 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-30" y="149"/>
+            <point key="canvasLocation" x="-31.199999999999999" y="148.87556221889056"/>
         </scene>
     </scenes>
     <resources>
         <image name="bingus.jpg" width="500" height="500"/>
+        <image name="herbert.png" width="777" height="451"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

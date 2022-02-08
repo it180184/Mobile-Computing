@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A827CB3527A94EF400018F04 /* herbert2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A827CB3427A94EF400018F04 /* herbert2.jpg */; };
-		A8D8D71627A94AC300370A2E /* herbert.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D8D71527A94AC300370A2E /* herbert.png */; };
 		A8FE750727A93F4700AB5FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE750627A93F4700AB5FE3 /* AppDelegate.swift */; };
 		A8FE750927A93F4700AB5FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE750827A93F4700AB5FE3 /* SceneDelegate.swift */; };
 		A8FE750B27A93F4700AB5FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE750A27A93F4700AB5FE3 /* ViewController.swift */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		A827CB3427A94EF400018F04 /* herbert2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = herbert2.jpg; sourceTree = "<group>"; };
-		A8D8D71527A94AC300370A2E /* herbert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = herbert.png; sourceTree = "<group>"; };
 		A8FE750327A93F4700AB5FE3 /* gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FE750627A93F4700AB5FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8FE750827A93F4700AB5FE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				A8FE750627A93F4700AB5FE3 /* AppDelegate.swift */,
 				A8FE750827A93F4700AB5FE3 /* SceneDelegate.swift */,
 				A8FE750A27A93F4700AB5FE3 /* ViewController.swift */,
-				A8D8D71527A94AC300370A2E /* herbert.png */,
 				A8FE750C27A93F4700AB5FE3 /* Main.storyboard */,
 				A827CB3427A94EF400018F04 /* herbert2.jpg */,
 				A8FE751A27A93F9700AB5FE3 /* bingus.jpg */,
@@ -136,7 +133,6 @@
 				A8FE751327A93F4900AB5FE3 /* LaunchScreen.storyboard in Resources */,
 				A8FE751027A93F4900AB5FE3 /* Assets.xcassets in Resources */,
 				A8FE751B27A93F9700AB5FE3 /* bingus.jpg in Resources */,
-				A8D8D71627A94AC300370A2E /* herbert.png in Resources */,
 				A8FE750E27A93F4700AB5FE3 /* Main.storyboard in Resources */,
 				A827CB3527A94EF400018F04 /* herbert2.jpg in Resources */,
 			);

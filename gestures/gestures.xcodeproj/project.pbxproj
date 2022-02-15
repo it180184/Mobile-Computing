@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80B44D527BBB28C0030A505 /* herbert.png in Resources */ = {isa = PBXBuildFile; fileRef = A80B44D427BBB28C0030A505 /* herbert.png */; };
+		A80B44D727BBB6A30030A505 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B44D627BBB6A30030A505 /* DrawView.swift */; };
+		A80B44D927BBB8160030A505 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B44D827BBB8160030A505 /* DrawViewController.swift */; };
 		A827CB3527A94EF400018F04 /* herbert2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A827CB3427A94EF400018F04 /* herbert2.jpg */; };
 		A8FE750727A93F4700AB5FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE750627A93F4700AB5FE3 /* AppDelegate.swift */; };
 		A8FE750927A93F4700AB5FE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE750827A93F4700AB5FE3 /* SceneDelegate.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80B44D427BBB28C0030A505 /* herbert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = herbert.png; sourceTree = "<group>"; };
+		A80B44D627BBB6A30030A505 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		A80B44D827BBB8160030A505 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		A827CB3427A94EF400018F04 /* herbert2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = herbert2.jpg; sourceTree = "<group>"; };
 		A8FE750327A93F4700AB5FE3 /* gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FE750627A93F4700AB5FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,11 +70,14 @@
 				A8FE750827A93F4700AB5FE3 /* SceneDelegate.swift */,
 				A8FE750A27A93F4700AB5FE3 /* ViewController.swift */,
 				A8FE750C27A93F4700AB5FE3 /* Main.storyboard */,
+				A80B44D427BBB28C0030A505 /* herbert.png */,
 				A827CB3427A94EF400018F04 /* herbert2.jpg */,
 				A8FE751A27A93F9700AB5FE3 /* bingus.jpg */,
 				A8FE750F27A93F4900AB5FE3 /* Assets.xcassets */,
 				A8FE751127A93F4900AB5FE3 /* LaunchScreen.storyboard */,
 				A8FE751427A93F4900AB5FE3 /* Info.plist */,
+				A80B44D627BBB6A30030A505 /* DrawView.swift */,
+				A80B44D827BBB8160030A505 /* DrawViewController.swift */,
 			);
 			path = gestures;
 			sourceTree = "<group>";
@@ -134,6 +143,7 @@
 				A8FE751027A93F4900AB5FE3 /* Assets.xcassets in Resources */,
 				A8FE751B27A93F9700AB5FE3 /* bingus.jpg in Resources */,
 				A8FE750E27A93F4700AB5FE3 /* Main.storyboard in Resources */,
+				A80B44D527BBB28C0030A505 /* herbert.png in Resources */,
 				A827CB3527A94EF400018F04 /* herbert2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +157,8 @@
 			files = (
 				A8FE750B27A93F4700AB5FE3 /* ViewController.swift in Sources */,
 				A8FE750727A93F4700AB5FE3 /* AppDelegate.swift in Sources */,
+				A80B44D927BBB8160030A505 /* DrawViewController.swift in Sources */,
+				A80B44D727BBB6A30030A505 /* DrawView.swift in Sources */,
 				A8FE750927A93F4700AB5FE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
